@@ -1,4 +1,5 @@
 
+
 *{
   font-family: "Arial Narrow";
 }
@@ -38,16 +39,14 @@ img.navbar{
 
 
 header div span:last-child{
-    text-align:right;
-    padding-left: 35%;
-    padding-right:10%;
+  padding-left: 36%;
+  margin:0 auto;
+  position:relative;
 }
 
 /*header word stuff*/
 
-.header-words{
-  color:white;
-}
+
 
 #title-one{
   font-size:3rem;
@@ -55,13 +54,15 @@ header div span:last-child{
   position: relative;
   top: -250px;
   left: 25%;
+  color: white;
 }
 
 #title-two{
-  font-size:1em;
+  font-size:.75em;
   position: relative;
-  top: -250px;
+  top: -275px;
   left: 35%;
+  color:grey;
 }
 
 /* main content*/
@@ -142,10 +143,11 @@ span img{
   display:inline-block;
   text-align:center;
   background-size:cover;
+  margin-left:-4px;
 }
 
 span img:first-child{
-  padding-left: 5%;
+  padding-left: 9%;
 }
 
 .footer div{
