@@ -1,0 +1,170 @@
+
+*{
+  font-family: "Arial Narrow";
+}
+
+
+/*header*/
+
+header {
+  width: 100%;
+  background-image: url('wave.jpg');
+  background-repeat: repeat;
+  background-size:cover;
+  height: 300px;
+  background-position-y: -250px;
+}
+
+header .tint{
+  background-color: #093cb2;
+  height: 300px;
+  opacity: .4;
+  vertical-align:top;
+  position:relative;
+  bottom:25px;
+}
+/* navigation bar*/
+.navbar{
+  display:inline-block;
+  margin:0 auto;
+  vertical-align: top;
+  position:relative;
+}
+
+img.navbar{
+  height:20px;
+  border-radius:100%;
+}
+
+
+header div span:last-child{
+    text-align:right;
+    padding-left: 35%;
+    padding-right:10%;
+}
+
+/*header word stuff*/
+
+.header-words{
+  color:white;
+}
+
+#title-one{
+  font-size:3rem;
+  margin:0;
+  position: relative;
+  top: -250px;
+  left: 25%;
+}
+
+#title-two{
+  font-size:1em;
+  position: relative;
+  top: -250px;
+  left: 35%;
+}
+
+/* main content*/
+
+.main-content{
+  width:40%;
+  margin-left: 15%;
+  display:inline-block;
+}
+.main-content h1{
+  color:#082c7d;
+}
+.main-content h3{
+  color:blue;
+  padding-left: 10px;
+  border-left: solid 1px lightgrey;
+}
+.main-content p{
+  color:grey;
+  font-size:.5em;
+}
+
+/* right side bar*/
+
+.right-side-bar{
+  width:30%;
+  display:inline-block;
+  vertical-align:top;
+  padding-top: 4%;
+  padding-left: 12%;
+  height:60%;
+
+}
+section.right-side-bar:last-child{
+  border-radius:0%;
+  height:25%;
+}
+.right-side-bar img{
+  height:40px;
+  border-radius:100%;
+
+}
+.right-side-bar span{
+  color: grey;
+  font-size: 8px;
+  display:inline-block;
+}
+.right-side-bar div{
+  display:inline;
+  padding-right: 15px;
+}
+.right-side-bar p{
+  color:blue;
+}
+
+#square span{
+  height:15%;
+  width:15%;
+  display:inline;
+}
+
+/* footer */
+
+.footer h1{
+  color: #082c7d;
+  display:inline-block;
+  width:100%;
+  text-align:center;
+}
+.footer{
+  width:100%;
+  height: 20%;
+}
+
+span img{
+  width: 20%;
+  height:20%;
+  display:inline-block;
+  text-align:center;
+  background-size:cover;
+}
+
+span img:first-child{
+  padding-left: 5%;
+}
+
+.footer div{
+  display:inline-block;
+  background-color:#051e58;
+  width:100%;
+  height:50px;
+  text-align:right;
+  color: white;
+
+}
+div p{
+  color:lightgrey;
+  display:inline-block;
+  font-size: 10px;
+  border-right: solid 1px lightgrey;
+  padding-right:.5%;
+}
+
+div p:last-child{
+  padding-right: 15%;
+}
